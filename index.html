@@ -20,6 +20,7 @@ canvas {
 </style>
 </head>
 <body onload="startGame()">
+<button style="background-color:#FFFFFF; position: absolute; padding-left: 10px; padding-right: 10px; padding-bottom: 5px; padding-top: 5px; top: 20px; right: 175px; border: 3px red solid" onclick="reload()">RESET</button>
 <script>
 
 var myGamePiece;
@@ -149,15 +150,13 @@ function accelerate(n) {
 }
 </script>
 <br>
-<button style="width:400px;height:50px;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;display:block;background-color:#FFFFFF;" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<button style="width:400px;height:50px;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;display:block;background-color:#FFFFFF;border: 2px black solid" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <script>
   function reload() {
     location.reload();
   }
 </script>
 <p>Use the button to shoot yourself in the air</p>
-<p>How long will you survive?</p>
-<h3 style="color: red">THE BUTTON BELOW WILL RESET THE GAME, also idito is gay</h3>
-<button style="background-color:#FFFFFF" onclick="reload()">RESET</button>
+<p style="color: red; font-weight: 900; padding-top: 80px;">idito is hella gay</p>
 </body>
 </html>
