@@ -20,7 +20,7 @@ canvas {
 </style>
 </head>
 <body onload="startGame()">
-<button style="background-color:#FFFFFF; position: relative; padding-left: 13px; padding-right: 13px; padding-bottom: 5px; padding-top: 5px; border: 3px red solid; float: left;display:block; margin-left: 75%; botom:800px" onclick="reload()">RESET</button>
+<button style="background-color:#FFFFFF; position: relative; border: 3px red solid;width:80px;height:35px;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;display:block;" onclick="reload()">RESET</button>
 <script>
 
 var myGamePiece;
@@ -150,7 +150,7 @@ function accelerate(n) {
 }
 </script>
 <br>
-<button style="width:400px;height:50px;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;display:block;background-color:#FFFFFF;border: 2px black solid" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<button style="width:400px;height:50px;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;display:block;background-color:#FFFFFF;border: 2px black solid;" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <script>
   function reload() {
     location.reload();
